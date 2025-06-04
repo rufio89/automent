@@ -2,11 +2,11 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-interface PageProps {
+type Props = {
   searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function ResultsPage({ searchParams }: PageProps) {
+export default async function ResultsPage({ searchParams }: Props) {
   const tier = searchParams.tier as string
 
   const getTierMessage = (tier: string) => {
