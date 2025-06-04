@@ -1,4 +1,4 @@
-# AI Consultancy
+# Transform Your Business with AI
 
 A modern web application built with Next.js 15, TypeScript, Tailwind CSS, and Shadcn UI.
 
@@ -31,7 +31,7 @@ src/
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd ai-consultancy
+cd automis
 ```
 
 2. Install dependencies:
