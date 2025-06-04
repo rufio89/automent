@@ -2,11 +2,11 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-type Props = {
+export default function ResultsPage({
+  searchParams,
+}: {
   searchParams: { [key: string]: string | string[] | undefined }
-}
-
-export default async function ResultsPage({ searchParams }: Props) {
+}) {
   const tier = searchParams.tier as string
 
   const getTierMessage = (tier: string) => {
