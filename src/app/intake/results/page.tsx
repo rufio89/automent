@@ -1,13 +1,14 @@
+"use client"
+
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
+import { Suspense } from "react"
 
-export default function ResultsPage({
-  searchParams,
-}: {
-  searchParams: { [key: string]: string | string[] | undefined }
-}) {
-  const tier = searchParams.tier as string
+function ResultsContent() {
+  const searchParams = useSearchParams()
+  const tier = searchParams.get("tier") || ""
 
   const getTierMessage = (tier: string) => {
     switch (tier) {
@@ -58,4 +59,16 @@ export default function ResultsPage({
       </div>
     </main>
   )
-} 
+}
+
+export default function ResultsPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-xl text-muted-foreground">Loading results...</div>
+      </div>
+    }>
+      <ResultsContent />
+    </Suspense>
+  )
+}
