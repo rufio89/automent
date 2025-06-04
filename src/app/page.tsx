@@ -23,20 +23,20 @@ export default function Home() {
       <section className="py-24 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto bg-gradient-to-b from-muted/50 to-background">
         <div className="max-w-3xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            You Don't Need a Full Tech Team to Use AI Effectively
+            You Don&apos;t Need a Full Tech Team to Use AI Effectively
           </h2>
           <div className="space-y-6 text-lg">
             <p className="text-muted-foreground">
               Most AI tools promise the world—but they leave you with more questions than results.
             </p>
             <p className="text-muted-foreground">
-              You're not looking for more software.
+              You&apos;re not looking for more software.
             </p>
             <p className="font-semibold text-xl">
-              You're looking for <span className="text-blue-600">smarter workflows</span>.
+              You&apos;re looking for <span className="text-blue-600">smarter workflows</span>.
             </p>
             <p className="text-muted-foreground">
-              That's where we come in.
+              That&apos;s where we come in.
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 via-blue-500/5 to-pink-500/5" />
         <div className="relative max-w-3xl mx-auto space-y-10">
           <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600">
-            We Help You Automate the Busywork and Reclaim Your Team's Time
+            We Help You Automate the Busywork and Reclaim Your Team&apos;s Time
           </h2>
           <p className="text-lg text-muted-foreground">
             We specialize in integrating <span className="font-semibold text-purple-600">practical AI tools</span> into your existing stack—think CRMs, spreadsheets, email, forms, docs, and more.
@@ -65,12 +65,12 @@ export default function Home() {
               </li>
               <li className="flex items-center gap-4 p-4 bg-white/50 dark:bg-black/50 rounded-xl shadow-sm">
                 <span className="text-3xl">🧘</span>
-                <span className="text-lg">A team that's focused on high-value work, not tedious tasks</span>
+                <span className="text-lg">A team that&apos;s focused on high-value work, not tedious tasks</span>
               </li>
             </ul>
           </div>
           <p className="text-lg text-muted-foreground">
-            Whether it's using AI to summarize client notes, automate reporting, generate proposals, or route customer requests, we make it all run quietly in the background.
+            Whether it&apos;s using AI to summarize client notes, automate reporting, generate proposals, or route customer requests, we make it all run quietly in the background.
           </p>
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="space-y-4 p-6 bg-white/50 dark:bg-black/50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-pink-600">3. Train Your Team + Support Ongoing</h4>
               <p className="text-muted-foreground">
-                We train your team to confidently use what we build, and we're here as your AI partner as needs evolve.
+                We train your team to confidently use what we build, and we&apos;re here as your AI partner as needs evolve.
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-pink-500/5" />
         <div className="relative max-w-3xl mx-auto space-y-10">
           <h2 className="text-3xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600">
-            What We've Helped Businesses Do
+            What We&apos;ve Helped Businesses Do
           </h2>
           <ul className="grid md:grid-cols-2 gap-6">
             {[
@@ -145,7 +145,7 @@ export default function Home() {
                 <span>🎯</span> Focused on Real ROI
               </h3>
               <p className="text-muted-foreground">
-                We don't chase shiny tools—we find what works and saves you real time and money.
+                We don&apos;t chase shiny tools—we find what works and saves you real time and money.
               </p>
             </div>
             <div className="space-y-4 p-6 bg-white/50 dark:bg-black/50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -153,7 +153,7 @@ export default function Home() {
                 <span>🔌</span> Integrated, Not Replaced
               </h3>
               <p className="text-muted-foreground">
-                We don't overhaul your systems. We connect AI to the tools your team already knows.
+                We don&apos;t overhaul your systems. We connect AI to the tools your team already knows.
               </p>
             </div>
             <div className="space-y-4 p-6 bg-white/50 dark:bg-black/50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">

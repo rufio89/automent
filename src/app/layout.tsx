@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Consultancy - Transform Your Business with AI",
+  title: "Transform Your Business with AI",
   description: "We help businesses integrate AI into their existing processes—saving time, cutting costs, and increasing productivity.",
 };
 
