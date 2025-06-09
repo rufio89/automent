@@ -8,10 +8,13 @@ export function Nav() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold">Automis</span>
+              <span className="text-xl font-bold">Automent</span>
             </Link>
           </div>
           <div className="flex items-center gap-4">
+            <Link href="/calculator">
+              <Button variant="outline">Value Calculator</Button>
+            </Link>
             <Link href="/intake">
               <Button variant="outline">Start Assessment</Button>
             </Link>
