@@ -203,7 +203,7 @@ export default function CalculatorPage() {
         // Selection Phase
         <div className="grid gap-4">
           <p className="text-muted-foreground text-center mb-4">
-            Select the automation use cases you'd like to evaluate. You can choose multiple options.
+            Select the automation use cases you&apos;d like to evaluate. You can choose multiple options.
           </p>
           {useCases.map((useCase, index) => (
             <Card 
