@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -13,9 +14,11 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
             We help small and mid-sized businesses integrate AI into their <em>existing</em> processes—saving time, cutting costs, and increasing productivity without hiring or adding complexity.
           </p>
-          <Button size="lg" className="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
-            🗓 Book a Free 30-Minute Strategy Call
-          </Button>
+          <Link href="/book">
+            <Button size="lg" className="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+              🗓 Book a Free 30-Minute Strategy Call
+            </Button>
+          </Link>
         </div>
       </section>
 
@@ -192,9 +195,11 @@ export default function Home() {
               <span>A clear plan to start saving time immediately</span>
             </li>
           </ul>
-          <Button size="lg" className="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
-            Book Your Free Strategy Call
-          </Button>
+          <Link href="/book">
+            <Button size="lg" className="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+              Book Your Free Strategy Call
+            </Button>
+          </Link>
         </div>
       </section>
     </main>

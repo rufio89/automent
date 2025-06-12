@@ -26,7 +26,7 @@ export function Nav() {
             <Link href="/intake">
               <Button variant="outline">Start Assessment</Button>
             </Link>
-            <Link href="/">
+            <Link href="/book">
               <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
                 Book a Call
               </Button>
@@ -84,7 +84,7 @@ export function Nav() {
               </Button>
             </Link>
             <Link
-              href="/"
+              href="/book"
               className="w-full"
               onClick={() => setIsOpen(false)}
             >
